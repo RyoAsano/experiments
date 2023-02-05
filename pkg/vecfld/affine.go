@@ -1,7 +1,7 @@
 package vecfld
 
 import (
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
 )
 
 func NewAffine(scale float64, adder point.Point) VectorField {

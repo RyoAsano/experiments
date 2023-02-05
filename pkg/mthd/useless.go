@@ -3,9 +3,9 @@ package mthd
 import (
 	"fmt"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
-	"bitbucket.org/AsanoRyo/experiments/pkg/sde"
-	"bitbucket.org/AsanoRyo/experiments/pkg/stchprc"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/sde"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
 )
 
 func NewPtToPtMthd(checkPoints ...point.Point) Method {

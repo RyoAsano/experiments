@@ -3,11 +3,11 @@ package mthd
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/grd"
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
-	"bitbucket.org/AsanoRyo/experiments/pkg/sample_sde1"
-	"bitbucket.org/AsanoRyo/experiments/pkg/stchprc"
-	"bitbucket.org/AsanoRyo/experiments/pkg/vecfld"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/sample_sde1"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/vecfld"
 )
 
 func TestTo(t *testing.T) {

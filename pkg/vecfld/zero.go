@@ -1,6 +1,6 @@
 package vecfld
 
-import "bitbucket.org/AsanoRyo/experiments/pkg/point"
+import "bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
 
 func NewZero(domainDim int, rangeDim int) VectorField {
 	return &zeroVecFld{domainDim: domainDim, rangeDim: rangeDim}

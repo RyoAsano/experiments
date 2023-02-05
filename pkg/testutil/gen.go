@@ -3,7 +3,7 @@ package testutil
 import (
 	"math/rand"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/randgen"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/randgen"
 )
 
 type DummyGen struct {

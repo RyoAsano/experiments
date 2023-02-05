@@ -3,8 +3,8 @@ package mthd
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
-	"bitbucket.org/AsanoRyo/experiments/pkg/vecfld"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/vecfld"
 )
 
 func TestPtToPtMthdTo(t *testing.T) {

@@ -3,8 +3,8 @@ package main
 import (
 	"math/rand"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/stchprc"
-	"bitbucket.org/AsanoRyo/experiments/pkg/util"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/util"
 )
 
 func main() {

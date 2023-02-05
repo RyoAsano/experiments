@@ -4,13 +4,13 @@ import (
 	"math"
 	"math/rand"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/cplxquad"
-	"bitbucket.org/AsanoRyo/experiments/pkg/cplxquadexp"
-	"bitbucket.org/AsanoRyo/experiments/pkg/grd"
-	"bitbucket.org/AsanoRyo/experiments/pkg/mthd"
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
-	"bitbucket.org/AsanoRyo/experiments/pkg/randgen"
-	"bitbucket.org/AsanoRyo/experiments/pkg/stchprc"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/cplxquad"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/cplxquadexp"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/mthd"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/randgen"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
 )
 
 func EulerMaruyamaQuadratic(r rand.Rand, T float64, N int, x float64, y float64) stchprc.Process {

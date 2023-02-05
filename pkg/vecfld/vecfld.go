@@ -3,7 +3,7 @@ package vecfld
 import (
 	"fmt"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
 )
 
 type VectorField interface {
