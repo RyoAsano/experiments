@@ -3,7 +3,7 @@ package point
 import (
 	"fmt"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/consts"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/consts"
 )
 
 type Point interface {

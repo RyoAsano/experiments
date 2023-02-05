@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/grd"
-	"bitbucket.org/AsanoRyo/experiments/pkg/mathutil"
-	"bitbucket.org/AsanoRyo/experiments/pkg/randgen"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/mathutil"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/randgen"
 )
 
 var (

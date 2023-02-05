@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/path"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/path"
 )
 
 func OutputToCsv(pth path.Path, dirname string, filename string) error {

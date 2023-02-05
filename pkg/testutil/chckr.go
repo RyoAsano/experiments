@@ -3,12 +3,12 @@ package testutil
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/bm"
-	"bitbucket.org/AsanoRyo/experiments/pkg/mathutil"
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
-	"bitbucket.org/AsanoRyo/experiments/pkg/sde"
-	"bitbucket.org/AsanoRyo/experiments/pkg/stchprc"
-	"bitbucket.org/AsanoRyo/experiments/pkg/vecfld"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/bm"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/mathutil"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/sde"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/vecfld"
 )
 
 func CheckTimeAndBMIntr(intr stchprc.Process, seed int64, t *testing.T) {

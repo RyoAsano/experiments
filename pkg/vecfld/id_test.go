@@ -3,7 +3,7 @@ package vecfld
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
 )
 
 func TestId(t *testing.T) {

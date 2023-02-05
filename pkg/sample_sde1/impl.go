@@ -3,11 +3,11 @@ package sample_sde1
 import (
 	"fmt"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/grd"
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
-	"bitbucket.org/AsanoRyo/experiments/pkg/sde"
-	"bitbucket.org/AsanoRyo/experiments/pkg/stchprc"
-	"bitbucket.org/AsanoRyo/experiments/pkg/vecfld"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/sde"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/vecfld"
 )
 
 // dX = V(X)dt + W(X)dWt,

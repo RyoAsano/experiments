@@ -3,8 +3,8 @@ package path
 import (
 	"fmt"
 
-	"bitbucket.org/AsanoRyo/experiments/pkg/grd"
-	"bitbucket.org/AsanoRyo/experiments/pkg/point"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
+	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
 )
 
 type DimMismatchErr struct {
