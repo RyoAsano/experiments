@@ -10,7 +10,7 @@ import (
 func main() {
 	var r rand.Rand = *rand.New(rand.NewSource(99))
 	var T float64 = 1
-	var N int = 10000000
+	var N int = 100000
 
 	var process stchprc.Process
 	var dir string
