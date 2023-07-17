@@ -3,11 +3,11 @@ package bm
 import (
 	"math"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/grd"
-	"github.com/AsanoRyo/stochastic_calculus/pkg/path"
-	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
-	"github.com/AsanoRyo/stochastic_calculus/pkg/randgen"
-	"github.com/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"github.com/RyoAsano/stochastic_calculus/pkg/grd"
+	"github.com/RyoAsano/stochastic_calculus/pkg/path"
+	"github.com/RyoAsano/stochastic_calculus/pkg/point"
+	"github.com/RyoAsano/stochastic_calculus/pkg/randgen"
+	"github.com/RyoAsano/stochastic_calculus/pkg/stchprc"
 )
 
 func New(

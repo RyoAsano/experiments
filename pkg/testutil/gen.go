@@ -3,7 +3,7 @@ package testutil
 import (
 	"math/rand"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/randgen"
+	"github.com/RyoAsano/stochastic_calculus/pkg/randgen"
 )
 
 type DummyGen struct {

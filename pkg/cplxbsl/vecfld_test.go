@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
-	"github.com/AsanoRyo/stochastic_calculus/pkg/testutil"
+	"github.com/RyoAsano/stochastic_calculus/pkg/point"
+	"github.com/RyoAsano/stochastic_calculus/pkg/testutil"
 )
 
 var driftChecker = testutil.VecFldChecker{

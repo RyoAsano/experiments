@@ -3,7 +3,7 @@ package mathutil
 import (
 	"testing"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/consts"
+	"github.com/RyoAsano/stochastic_calculus/pkg/consts"
 )
 
 func TestCloseBtw(t *testing.T) {

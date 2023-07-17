@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/stchprc"
-	"github.com/AsanoRyo/stochastic_calculus/pkg/util"
+	"github.com/RyoAsano/stochastic_calculus/pkg/stchprc"
+	"github.com/RyoAsano/stochastic_calculus/pkg/util"
 )
 
 func main() {

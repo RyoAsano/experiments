@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/consts"
-	"github.com/AsanoRyo/stochastic_calculus/pkg/mathutil"
+	"github.com/RyoAsano/stochastic_calculus/pkg/consts"
+	"github.com/RyoAsano/stochastic_calculus/pkg/mathutil"
 )
 
 func TestNew(t *testing.T) {

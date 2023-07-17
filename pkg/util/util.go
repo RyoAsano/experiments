@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/path"
+	"github.com/RyoAsano/stochastic_calculus/pkg/path"
 )
 
 func OutputToCsv(pth path.Path, dirname string, filename string) error {

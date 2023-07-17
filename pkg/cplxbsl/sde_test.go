@@ -3,9 +3,9 @@ package cplxbsl
 import (
 	"testing"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/grd"
-	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
-	"github.com/AsanoRyo/stochastic_calculus/pkg/testutil"
+	"github.com/RyoAsano/stochastic_calculus/pkg/grd"
+	"github.com/RyoAsano/stochastic_calculus/pkg/point"
+	"github.com/RyoAsano/stochastic_calculus/pkg/testutil"
 )
 
 func TestSDE(t *testing.T) {

@@ -3,7 +3,7 @@ package mthd
 import (
 	"testing"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/RyoAsano/stochastic_calculus/pkg/point"
 )
 
 func TestInject(t *testing.T) {
