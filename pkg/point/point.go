@@ -3,7 +3,7 @@ package point
 import (
 	"fmt"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/consts"
+	"github.com/RyoAsano/stochastic_calculus/pkg/consts"
 )
 
 type Point interface {

@@ -3,7 +3,7 @@ package vecfld
 import (
 	"testing"
 
-	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/RyoAsano/stochastic_calculus/pkg/point"
 )
 
 func TestZeroVecFld(t *testing.T) {
