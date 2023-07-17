@@ -3,7 +3,7 @@ package vecfld
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
 )
 
 func TestAffine(t *testing.T) {

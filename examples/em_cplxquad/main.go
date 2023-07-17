@@ -2,15 +2,16 @@ package main
 
 import (
 	"math/rand"
+	"os"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/util"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/util"
 )
 
 func main() {
 	var r rand.Rand = *rand.New(rand.NewSource(99))
 	var T float64 = 1
-	var N int = 100000
+	var N int = 100
 
 	var process stchprc.Process
 	var dir string
@@ -21,9 +22,11 @@ func main() {
 	file := "path_n0p001_0p1.csv"
 
 	// Generate a sample path
-	if a_path, err := process.Realize(); err != nil {
-		panic(err.Error())
-	} else if err := util.OutputToCsv(a_path, dir, file); err != nil {
-		panic(err.Error())
+	if aPath, err := process.Realize(); err != nil {
+		println(err.Error())
+		os.Exit(1)
+	} else if err := util.OutputToCsv(aPath, dir, file); err != nil {
+		println(err.Error())
+		os.Exit(1)
 	}
 }

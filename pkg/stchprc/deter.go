@@ -3,9 +3,9 @@ package stchprc
 import (
 	"fmt"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/path"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/grd"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/path"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
 )
 
 func NewDeter(

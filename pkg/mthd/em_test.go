@@ -3,11 +3,11 @@ package mthd
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/sample_sde1"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/vecfld"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/grd"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/samplesde1"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/vecfld"
 )
 
 func TestTo(t *testing.T) {
@@ -43,7 +43,7 @@ func TestApply(t *testing.T) {
 		panic(err.Error())
 	}
 	initPt := point.New(1, -2, 0.5)
-	s, err := sample_sde1.New(grid, initPt, intr, 2, 4)
+	s, err := samplesde1.New(grid, initPt, intr, 2, 4)
 	if err != nil {
 		panic(err.Error())
 	}

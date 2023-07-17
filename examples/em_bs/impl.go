@@ -3,11 +3,11 @@ package main
 import (
 	"math/rand"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/bs"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/mthd"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/randgen"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/bs"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/grd"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/mthd"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/randgen"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/stchprc"
 )
 
 func EulerMaruyamaBlackSholes(r rand.Rand, T float64, N int, x0 float64, mu float64, sigma float64) stchprc.Process {

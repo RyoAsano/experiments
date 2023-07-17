@@ -1,6 +1,6 @@
 package vecfld
 
-import "bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
+import "github.com/AsanoRyo/stochastic_calculus/pkg/point"
 
 func NewId(dim int) VectorField {
 	return &idVecFld{dim: dim}

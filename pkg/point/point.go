@@ -3,7 +3,7 @@ package point
 import (
 	"fmt"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/consts"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/consts"
 )
 
 type Point interface {
@@ -28,15 +28,15 @@ func Add(p Point, q Point) (Point, error) {
 
 	coord := make([]float64, p.Dim())
 	for d := 1; d <= p.Dim(); d++ {
-		p_coord, err := p.Pr(d)
+		pCoord, err := p.Pr(d)
 		if err != nil {
 			return nil, err
 		}
-		q_coord, err := q.Pr(d)
+		qCoord, err := q.Pr(d)
 		if err != nil {
 			return nil, err
 		}
-		coord[d-1] = p_coord + q_coord
+		coord[d-1] = pCoord + qCoord
 	}
 	return New(coord...), nil
 }

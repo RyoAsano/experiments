@@ -1,9 +1,9 @@
 package mthd
 
 import (
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/sde"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/sde"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/stchprc"
 )
 
 type InjMap func(point.Point) point.Point

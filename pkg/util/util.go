@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/path"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/path"
 )
 
 func OutputToCsv(pth path.Path, dirname string, filename string) error {
@@ -34,7 +34,7 @@ func OutputToCsv(pth path.Path, dirname string, filename string) error {
 		records[k] = record
 	}
 
-	fullDir := fmt.Sprintf("db/%s", dirname)
+	fullDir := "db"
 	os.MkdirAll(fullDir, 0777)
 	savingFile, err := os.Create(fmt.Sprintf("%s/%s", fullDir, filename))
 	if err != nil {

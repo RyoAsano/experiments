@@ -3,7 +3,7 @@ package point
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/mathutil"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/mathutil"
 )
 
 func TestImpl(t *testing.T) {
