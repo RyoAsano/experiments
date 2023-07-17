@@ -3,8 +3,8 @@ package timeprc
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/mathutil"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/grd"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/mathutil"
 )
 
 func TestTime(t *testing.T) {

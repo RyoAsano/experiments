@@ -1,12 +1,12 @@
 package mthd
 
 import (
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/path"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/sde"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/vecfld"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/grd"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/path"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/sde"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/vecfld"
 )
 
 type DX map[vecfld.VectorField]float64

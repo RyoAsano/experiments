@@ -1,8 +1,8 @@
 package cplxquad
 
 import (
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/vecfld"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/vecfld"
 )
 
 func NewVecFld() (vecfld.VectorField, vecfld.VectorField) {

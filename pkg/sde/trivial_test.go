@@ -3,9 +3,9 @@ package sde
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/stchprc"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/grd"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/stchprc"
 )
 
 func TestTrivial(t *testing.T) {

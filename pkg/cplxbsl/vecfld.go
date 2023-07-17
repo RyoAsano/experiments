@@ -1,8 +1,8 @@
 package cplxbsl
 
 import (
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/vecfld"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/vecfld"
 )
 
 type drift struct{}

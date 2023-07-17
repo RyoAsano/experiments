@@ -3,8 +3,8 @@ package cplxquad
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/testutil"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/testutil"
 )
 
 var driftChecker = testutil.VecFldChecker{

@@ -3,7 +3,7 @@ package grd
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/mathutil"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/mathutil"
 )
 
 func TestEquiDistGrid(t *testing.T) {

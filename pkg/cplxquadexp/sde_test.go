@@ -3,9 +3,9 @@ package cplxquadexp
 import (
 	"testing"
 
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/grd"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/point"
-	"bitbucket.org/AsanoRyo/stochastic_calculus/pkg/testutil"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/grd"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/point"
+	"github.com/AsanoRyo/stochastic_calculus/pkg/testutil"
 )
 
 func TestSDE(t *testing.T) {
