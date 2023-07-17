@@ -1,4 +1,4 @@
-package sample_sde1
+package samplesde1
 
 import (
 	"fmt"

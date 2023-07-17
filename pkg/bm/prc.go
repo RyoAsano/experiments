@@ -14,28 +14,28 @@ func New(
 	grid grd.Grid,
 	bmDim int,
 	randgen randgen.RandGenerator,
-	with_timeprc bool,
+	withTimeprc bool,
 ) stchprc.Process {
 	totalDim := bmDim
-	if with_timeprc {
+	if withTimeprc {
 		totalDim += 1
 	}
 
 	return &brownianMotion{
-		grid:         grid,
-		randNumGen:   randgen,
-		bmDim:        bmDim,
-		totalDim:     totalDim,
-		with_timeprc: with_timeprc,
+		grid:        grid,
+		randNumGen:  randgen,
+		bmDim:       bmDim,
+		totalDim:    totalDim,
+		withTimeprc: withTimeprc,
 	}
 }
 
 type brownianMotion struct {
-	randNumGen   randgen.RandGenerator
-	grid         grd.Grid
-	bmDim        int
-	totalDim     int
-	with_timeprc bool
+	randNumGen  randgen.RandGenerator
+	grid        grd.Grid
+	bmDim       int
+	totalDim    int
+	withTimeprc bool
 }
 
 var _ stchprc.Process = (*brownianMotion)(nil)
@@ -72,7 +72,7 @@ func (bm *brownianMotion) Realize() (path.Path, error) {
 		runningPt = point.New(nextCoord...)
 
 		// Prepend time process if necessary
-		if bm.with_timeprc {
+		if bm.withTimeprc {
 			time := bm.grid.Get(k)
 			nextCoord = append([]float64{time}, nextCoord...)
 		}

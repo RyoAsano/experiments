@@ -21,10 +21,10 @@ func main() {
 	file := "path_n0p001_0p1.csv"
 
 	// Generate a sample path
-	if a_path, err := process.Realize(); err != nil {
+	if aPath, err := process.Realize(); err != nil {
 		println(err.Error())
 		os.Exit(1)
-	} else if err := util.OutputToCsv(a_path, dir, file); err != nil {
+	} else if err := util.OutputToCsv(aPath, dir, file); err != nil {
 		println(err.Error())
 		os.Exit(1)
 	}

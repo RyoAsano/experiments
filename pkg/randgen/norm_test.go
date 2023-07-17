@@ -18,16 +18,16 @@ func TestInitNormRandGen(t *testing.T) {
 func TestNormRandGen(t *testing.T) {
 
 	mean := 2.0
-	std_dev := 10.0
-	gen_func := func() float64 {
+	stdDev := 10.0
+	genFunc := func() float64 {
 		return 2.1
 	}
 	var expected float64 = 23 // = 10.0*2.1 + 2.0
 
 	gen := normRandGenerator{
-		mean:     mean,
-		stdDev:   std_dev,
-		gen_func: gen_func,
+		mean:    mean,
+		stdDev:  stdDev,
+		genFunc: genFunc,
 	}
 
 	var actual float64
